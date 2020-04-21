@@ -1,23 +1,28 @@
-const navbar = document.querySelector('.navbar')
+$(document).ready(function() {
+	
+	// INITIATE THE FOOTER
+  siteFooter();
+	// COULD BE SIMPLIFIED FOR THIS PEN BUT I WANT TO MAKE IT AS EASY TO PUT INTO YOUR SITE AS POSSIBLE
+	$(window).resize(function() {
+		siteFooter();
+	});
+	
+	function siteFooter() {
+		var siteContent = $('#site-content');
+		var siteContentHeight = siteContent.height();
+		var siteContentWidth = siteContent.width();
 
-navbar.querySelector('.toggle').addEventListener('click', () => {
+		var siteFooter = $('#site-footer');
+		var siteFooterHeight = siteFooter.height();
+		var siteFooterWidth = siteFooter.width();
 
-    navbar.classList.toggle('collapsed')
+		console.log('Content Height = ' + siteContentHeight + 'px');
+		console.log('Content Width = ' + siteContentWidth + 'px');
+		console.log('Footer Height = ' + siteFooterHeight + 'px');
+		console.log('Footer Width = ' + siteFooterWidth + 'px');
 
-})
-
-
-
-window.addEventListener('scroll', (e) => {
-
-    let windowY = window.pageYOffset
-
-    let navbarHeight = document.querySelector('.navbar').offsetHeight
-
-    if (windowY > navbarHeight) navbar.classList.add('sticky')
-    else navbar.classList.remove('sticky')
-
-
-
-
-})
+		siteContent.css({
+			"margin-bottom" : siteFooterHeight + 50
+		});
+	};
+});
