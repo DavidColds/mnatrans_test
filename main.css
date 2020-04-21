@@ -99,6 +99,34 @@ ul {
 
 /********************************************************************************************** End About***/
 
+
+
+
+/********************************************************************************************** Parallax***/
+
+.parallax {
+    background-image: url("https://images.unsplash.com/photo-1541969487406-1f1adf3884ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(144, 53, 53, 0.12);
+  }
+  
+  .parallax h1 {
+    color: #ffbf00;
+    font-size: 70px;
+  }
+  
+  .parallax h4 {
+    font-size: 40px;
+    color: #ffbf00;
+  }
+
+/********************************************************************************************** end Parallax***/
+
+
 /********************************************************************************************** Photo Galery***/
 
 
@@ -119,3 +147,5 @@ ul {
 }
 
 /********************************************************************************************** end footer***/
+
+
