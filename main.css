@@ -1,12 +1,10 @@
-
-
 html,
 body,
 header {
-  font-family: 'Roboto Slab', serif;
-  scroll-behavior: smooth;
-  
-  background-color: rgb(229, 245, 255);
+    font-family: 'Roboto Slab', serif;
+    scroll-behavior: smooth;
+
+    background-color: rgb(229, 245, 255);
 
 }
 
@@ -31,19 +29,30 @@ ul {
 
 
 /**********************************************************************************************Navbar***/
+.navbar {
+    background: linear-gradient(40deg, rgba(175, 226, 255, 0.835), rgba(100, 180, 255, 0.774));
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent;
+}
+
 .navbar-dark .navbar-brand {
     color: rgb(119, 119, 119);
 }
-.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link,
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
     color: rgb(112, 112, 112);
     transition: .35s;
 }
+
 .navbar-brand {
     display: inline-block;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
     margin-right: 1rem;
-    font-size: 1.25rem;
+    font-size: 2.25rem;
     line-height: inherit;
     white-space: nowrap;
 }
@@ -73,20 +82,21 @@ ul {
 /********************************************************************************************** End Header***/
 
 /********************************************************************************************** About***/
-.about{
-  padding-top: 190px;
-  padding-bottom: 90px;
-  background-color: rgb(229, 245, 255);
+.about {
+    padding-top: 190px;
+    padding-bottom: 90px;
+    background-color: rgb(229, 245, 255);
 }
 
 .align-center {
-  text-align: center;
+    text-align: center;
 }
 
-.about-img{
-  width: 100%;
-  height: auto;
+.about-img {
+    width: 100%;
+    height: auto;
 }
+
 /********************************************************************************************** End About***/
 
 /********************************************************************************************** Photo Galery***/
@@ -98,13 +108,14 @@ ul {
 /********************************************************************************************** footer***/
 
 #site-footer {
-	padding: 25px 0;
-	font-size: 85%;
-	background-color: rgba(168, 221, 255, 0.856);
-	position: fixed;
-	z-index: -1;
-	left: 0;
-	right: 0;
-	bottom: 0;
+    padding: 25px 0;
+    font-size: 85%;
+    background-color: rgb(205, 230, 255);
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
+
 /********************************************************************************************** end footer***/
