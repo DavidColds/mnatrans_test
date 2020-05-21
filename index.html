@@ -14,6 +14,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <!-- Local CSS -->
     <link rel="stylesheet" href="main.css">
@@ -21,6 +24,7 @@
 </head>
 
 <body id="site-content">
+
     <header>
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
@@ -36,33 +40,42 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home
+                            <a class="nav-link" href="#">Hem
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#tjänster">Våra tjänster</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Profile</a>
+                            <a class="nav-link" href="#">Om Os</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bilder</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Våra Kunder</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kontakta Oss</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Intro -->
-        <section class="view">
 
+        <section>
             <div class="row">
 
-                <div class="col-md-6">
-
+                <div data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500"
+                    data-aos-duration="1000" class="col-md-6">
                     <div class="about">
                         <div class="container">
                             <div class="row justify-content-center align-items-center">
                                 <div class="col-sm-12 text-block col-md-6">
-                                    <div class="text-box mbr-fonts-style align-center mbr-bold display-4">MNA</div>
-                                    <h3 class="mbr-section-title mbr-fonts-style align-right display-2">
+                                    <div class="text-box mbr-fonts-style align-left mbr-bold display-1">MNA</div>
+                                    <h3 class="mbr-section-title mbr-fonts-style display-4">
                                         <strong>Transport</strong></h3>
                                     <div class="mbr-section-text mbr-fonts-style align-right display-7">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro animi maiores
@@ -77,12 +90,12 @@
                         </div>
 
                     </div>
-
                 </div>
 
-                <div class="col-md-6">
-                    <div class="view">
-                        <img src="https://images.unsplash.com/photo-1561118303-3686864b417b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
+                    data-aos-duration="900" class="col-md-6">
+                    <div>
+                        <img src="./static/img/landingcover.jpg"
                             class="img-fluid" alt="smaple image">
                         <div class="mask flex-center hm-gradient">
                         </div>
@@ -90,91 +103,17 @@
                 </div>
 
             </div>
-
         </section>
-        <!-- Intro -->
     </header>
     <!-- Main navigation -->
-
-
-    <!-- ABout US-->
-
-    <div class="container my-5 py-5 z-depth-1">
-
-
-        <!--Section: Content-->
-        <section class="px-md-5 mx-md-5 text-md-left dark-grey-text">
-
-            <!--Grid row-->
-            <div class="row">
-                <div class="col-md-5 mb-4 mb-md-0">
-
-                    <img src="https://images.unsplash.com/photo-1531683760080-7bb28a630bd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2225&q=80"
-                        class="img-fluid" alt="">
-
-                </div>
-                <!--Grid column-->
-                <div class="col-md-6 mb-4 mb-md-0">
-
-                    <h3 class="font-weight-bold">Om oss</h3>
-
-                    <p class="text-muted">Vi startade upp vårt verksamhet inom transportbranschen i 2014 som ett mindre
-                        familjeföretag men vi växte upp snabbt med efterfrågan till det vi är idag. Vi samarbetar och
-                        hjälper flera olika bolag inom transport och logistik och tack vare vår samarbetspartner Budbee
-                        utför vi inrikes godstransporter i Stockholms regionen.
-
-                        Idag är vi 11 fordon som utför minst 500 leveranser varje dag för lokala företag genom att
-                        leverera fram till dörren och genomsnitt 300000 leveranser i Stockholm tills nu.
-
-                        Vi är i en kontinuerlig utveckling och tack vare vårt insamlat erfarenhet och våra kvalificerade
-                        och skickliga chaufförer som känner sig redo för att fixa dagliga utmaningar kommer vi att kunna
-                        vara en av de bästa transportfirmor som finns på marknaden.
-                    </p>
-
-                    <a class="btn btn-blue btn-md ml-0" href="#" role="button">Kontakta oss!</a>
-
-                    <hr class="my-5">
-
-                    <p class="font-weight-bold">Follow us on:</p>
-
-                    <!--Facebook-->
-                    <a href="#" class="mx-1" role="button"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="mx-1" role="button"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="mx-1" role="button"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="mx-1" role="button"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="mx-1" role="button"><i class="fab fa-pinterest"></i></a>
-                    <a href="#" class="mx-1" role="button"><i class="fab fa-youtube"></i></a>
-                    <a href="#" class="mx-1" role="button"><i class="fab fa-github"></i></a>
-                    <a href="#" class="mx-1" role="button"><i class="fab fa-stack-overflow"></i></a>
-
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-
-                <!--Grid column-->
-
-            </div>
-            <!--Grid row-->
-
-
-        </section>
-        <!--Section: Content-->
-
-
-    </div>
-
-
-
+    <div id="tjänster"></div>
 
 
 
     <br>
     <div class="container my-5">
-
         <!-- Section -->
         <section>
-
             <h6 class="font-weight-bold text-center grey-text text-uppercase small mb-4"></h6>
             <h3 class="font-weight-bold text-center dark-grey-text pb-2">Våra tjänster</h3>
             <hr class="w-header my-4">
@@ -183,11 +122,11 @@
 
             <div class="row">
 
-                <div class="col-md-6 col-xl-3 mb-4">
-                    <div class="card text-center bg-success text-white">
+                <div data-aos="zoom-in-right" class="col-md-6 col-xl-3 mb-4">
+                    <div class="card text-center blue lighten-5 text-grey">
                         <div class="card-body">
-                            <p class="mt-4 pt-2"><i class="far fa-object-ungroup fa-4x"></i></p>
-                            <h5 class="font-weight-normal my-4 py-2"><a class="text-white" href="#">Bud leverans</a>
+                            <p class="mt-4 pt-2"><i class="fas fa-truck fa-4x"></i></p>
+                            <h5 class="font-weight-normal my-4 py-2 dark-grey-text">Bud leverans
                             </h5>
                             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repellendus,
                                 atque id magni
@@ -196,24 +135,26 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-xl-3 mb-4">
-                    <div class="card text-center">
+                <div data-aos="zoom-in-right" class="col-md-6 col-xl-3 mb-4">
+                    <div class="card text-center blue lighten-4 text-grey">
                         <div class="card-body">
-                            <p class="mt-4 pt-2"><i class="fas fa-mobile-alt fa-4x grey-text"></i></p>
-                            <h5 class="font-weight-normal my-4 py-2"><a class="dark-grey-text" href="#">Hemleverans</a>
+                            <p class="mt-4 pt-2"><i class="fas fa-home fa-4x"></i></p>
+
+                            <h5 class="font-weight-normal my-4 py-2 dark-grey-text">Hemleverans
                             </h5>
+
                             <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
                                 repellendus, atque id magni </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-xl-3 mb-4">
-                    <div class="card text-center deep-purple lighten-1 text-white">
+                <div data-aos="zoom-in-left" class="col-md-6 col-xl-3 mb-4">
+                    <div class="card text-center deep-purple blue lighten-3 text-grey">
                         <div class="card-body">
-                            <p class="mt-4 pt-2"><i class="fas fa-chart-line fa-4x"></i></p>
-                            <h5 class="font-weight-normal my-4 py-2"><a class="text-white" href="#">Snabbleverans
-                                </a></h5>
+                            <p class="mt-4 pt-2"><i class="fas fa-shipping-fast fa-4x"></i></p>
+                            <h5 class="font-weight-normal my-4 py-2 dark-grey-text">Snabbleverans
+                                </h5>
                             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repellendus,
                                 atque id magni.
                             </p>
@@ -221,12 +162,134 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-xl-3">
+                <div data-aos="zoom-in-left" class="col-md-6 col-xl-3">
+                    <div class="card text-center">
+                        <div class="card-body blue lighten-2 ">
+                            <p class="mt-4 pt-2"><i class="fas fa-exchange-alt fa-4x"></i></p>
+                            <h5 class="font-weight-normal my-4 py-2 dark-grey-text">Leverans dörr
+                                    till dörr
+                                </a></h5>
+                            <p class="text- mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                                repellendus, atque id magni..</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Section -->
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1561118303-3686864b417b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                        class="img-fluid" alt="smaple image">
+                    <div class="mask flex-center hm-gradient">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-sm-12 text-block">
+                                <div class="text-box mbr-fonts-style  mbr-bold display-4">OM</div>
+                                <h3 class="mbr-section-title mbr-fonts-style align-right display-2">
+                                    <strong>OSS</strong></h3>
+                                <div class="mbr-section-text mbr-fonts-style align-right display-7">
+                                    Vi startade upp vårt verksamhet inom transportbranschen i 2014 som ett mindre
+                                    familjeföretag men vi växte upp snabbt med efterfrågan till det vi är idag. Vi
+                                    samarbetar och hjälper flera olika bolag inom transport och logistik och tack vare
+                                    vår samarbetspartner Budbee utför vi inrikes godstransporter i Stockholms regionen.
+
+                                    Idag är vi 11 fordon som utför minst 500 leveranser varje dag för lokala företag
+                                    genom att leverera fram till dörren och genomsnitt 300000 leveranser i Stockholm
+                                    tills nu.
+
+                                    Vi är i en kontinuerlig utveckling och tack vare vårt insamlat erfarenhet och våra
+                                    kvalificerade och skickliga chaufförer som känner sig redo för att fixa dagliga
+                                    utmaningar kommer vi att kunna vara en av de bästa transportfirmor som finns på
+                                    marknaden.<br></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <br>
+
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="mdb-lightbox no-margin"> </div>
+
+            <div class="col-6 col-md-4 col-sm-12"> <img
+                    src="https://images.unsplash.com/photo-1565891741441-64926e441838?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"
+                    class="img-fluid">
+            </div>
+            <div class="col-6 col-md-4 col-sm-12"> <img
+                    src="https://images.unsplash.com/photo-1565891741441-64926e441838?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"
+                    class="img-fluid">
+            </div>
+            <div class="col-6 col-md-4 col-sm-12"> <img
+                    src="https://images.unsplash.com/photo-1565891741441-64926e441838?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"
+                    class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+
+
+
+
+
+    <div class="container my-5">
+        <!-- Section -->
+        <section>
+
+            <h6 class="font-weight-bold text-center grey-text text-uppercase small mb-4"></h6>
+            <h3 class="font-weight-bold text-center dark-grey-text pb-2">Våra Kunder</h3>
+            <hr class="w-header my-4">
+            <p class="lead text-center text-muted pt-2 mb-5">Text about the costumers
+            </p>
+
+            <div class="row">
+
+                <div class="col-md-6 col">
                     <div class="card text-center">
                         <div class="card-body">
                             <p class="mt-4 pt-2"><i class="fas fa-bullhorn fa-4x grey-text"></i></p>
-                            <h5 class="font-weight-normal my-4 py-2"><a class="dark-grey-text" href="#">Leverans dörr
-                                    till dörr
+                            <h5 class="font-weight-normal my-4 py-2"><a class="dark-grey-text" href="#">Kund nr 1
+                                </a></h5>
+                            <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                                repellendus, atque id magni..</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <p class="mt-4 pt-2"><i class="fas fa-bullhorn fa-4x grey-text"></i></p>
+                            <h5 class="font-weight-normal my-4 py-2"><a class="dark-grey-text" href="#">Kund nr 2
                                 </a></h5>
                             <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
                                 repellendus, atque id magni..</p>
@@ -235,36 +298,12 @@
                 </div>
 
             </div>
-
         </section>
         <!-- Section -->
     </div>
 
 
 
- <!-- Parallax -->
- <div class="section">
-    <div class="parallax">
-        <div class="text-center">
-            <h1 style="color:#ffe9a8;">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </h1>
-        </div>
-        <div class="text-center">
-            <h4 style="color:#fff8e3;">
-                Sale line
-            </h4>
-        </div>
-        <div class="text-center">
-            <h4 style="color:#ffffff;">
-                Text .
-            </h4>
-        </div>
-    </div>
-</div>
-<!-- End Parallax -->
-
-<br>
 
 
 
@@ -275,106 +314,75 @@
 
 
 
-    <div class="container">
-        <!--Section: Contact v.2-->
-        <section class="mb-4">
-            <!--Section heading-->
-            <h2 class="h1-responsive font-weight-bold text-center my-4">Kontakta Oss!</h2>
-            <!--Section description-->
-            <p class="text-center w-responsive mx-auto mb-5"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Facilis
-                consectetur corporis sit aliquam inventore facere quis voluptates cupiditate, vero labore laborum
-                dolorem id quasi iste hic ducimus illo ea! Eum.</p>
-
-            <div class="row">
-
-                <!--Grid column-->
-                <div class="col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                        <!--Grid row-->
-                        <div class="row">
-
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="name" name="name" class="form-control">
-                                    <label for="name" class="">Your name</label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control">
-                                    <label for="email" class="">Your email</label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-
-                        </div>
-                        <!--Grid row-->
-
-                        <!--Grid row-->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="subject" name="subject" class="form-control">
-                                    <label for="subject" class="">Subject</label>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Grid row-->
-
-                        <!--Grid row-->
-                        <div class="row">
-
-                            <!--Grid column-->
-                            <div class="col-md-12">
-
-                                <div class="md-form">
-                                    <textarea type="text" id="message" name="message" rows="2"
-                                        class="form-control md-textarea"></textarea>
-                                    <label for="message">Your message</label>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!--Grid row-->
-
-                    </form>
-
-                    <div class="text-center text-md-left">
-                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+    <div class="view"
+        style="background-image: url('https://images.pexels.com/photos/226460/pexels-photo-226460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+        <div class="mask rgba-blue-light d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="row pt-lg-5 mt-lg-5">
+                    <div class="col-md-6 mb-5 mt-md-0 mt-5 white-text text-center text-md-left wow fadeInLeft"
+                        data-wow-delay="0.3s">
+                        <h1 class="display-4 font-weight-bold">Ring Till Oss!</h1>
+                        <hr class="hr-light">
+                        <h6 class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus quasi
+                            fuga
+                            nesciunt dolorum nulla magnam veniam sapiente! Commodi sequi non animi ea
+                            dolor quisquam iste.</h6>
                     </div>
-                    <div class="status"></div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-md-6 col-xl-5 mb-4">
+                        <!--Form-->
+                        <div class="card wow fadeInRight" data-wow-delay="0.3s">
+                            <div class="card-body z-depth-2">
+                                <!--Header-->
+                                <div class="text-center">
+                                    <h3 class="dark-grey-text">
+                                        <strong>Skriv till oss:</strong>
+                                    </h3>
+                                    <hr>
+                                </div>
+                                <!--Body-->
+                                <div class="md-form">
+                                    <i class="fas fa-user prefix grey-text"></i>
+                                    <input type="text" id="form3" class="form-control">
+                                    <label for="form3">Namn</label>
+                                </div>
+                                <div class="md-form">
+                                    <i class="fas fa-envelope prefix grey-text"></i>
+                                    <input type="text" id="form2" class="form-control">
+                                    <label for="form2">Email</label>
+                                </div>
+                                <!--Textarea with icon prefix-->
+                                <div class="md-form">
+                                    <i class="fas fa-pencil-alt prefix grey-text"></i>
+                                    <textarea type="text" id="form8" class="md-textarea form-control"
+                                        rows="3"></textarea>
+                                    <label for="form8">Meddelande</label>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <button class="btn btn-indigo btn-rounded">Sckicka</button>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Form-->
+                    </div>
+                    <!--Grid column-->
                 </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-3 text-center">
-                    <ul class="list-unstyled mb-0">
-                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                            <p>San Francisco, CA 94126, USA</p>
-                        </li>
-
-                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                            <p>+ 01 234 567 89</p>
-                        </li>
-
-                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                            <p>contact@mdbootstrap.com</p>
-                        </li>
-                    </ul>
-                </div>
-                <!--Grid column-->
-
+                <!--Grid row-->
             </div>
-
-        </section>
-        <!--Section: Contact v.2-->
+            <!-- Content -->
+        </div>
+        <!-- Mask & flexbox options-->
     </div>
+    <!-- Full Page Intro -->
+    <!-- Main navigation -->
+
+    <br>
+
+
+
+
 
     <!--Footer-->
     <div id="site-footer">
@@ -451,8 +459,16 @@
     <!-- Local JS-->
     <script type="text/javascript" src="main.js"></script>
     <script>
-
+        // MDB Lightbox Init
+        $(function () {
+            $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+        });
     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>

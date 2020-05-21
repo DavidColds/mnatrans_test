@@ -8,6 +8,10 @@ header {
 
 }
 
+.view {
+    height: 850px;
+}
+
 * {
     box-sizing: border-box;
     transition: 0.4s ease all;
@@ -66,8 +70,9 @@ ul {
 
 /********************************************************************************************** Header***/
 
-
-
+.logo {
+    size: 300px;
+}
 
 
 
@@ -92,10 +97,37 @@ ul {
     text-align: center;
 }
 
-.about-img {
-    width: 100%;
-    height: auto;
+.gradient {
+    position: relative;
+    display: inline-block;
 }
+
+.gradient:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: -moz-linear-gradient(top, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(220, 66, 37, 0.5)), color-stop(100%, rgba(0, 47, 75, 0.5)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002f4b', endColorstr='#00000000', GradientType=0);
+    /* IE6-9 */
+}
+
+
+
 
 /********************************************************************************************** End About***/
 
@@ -104,31 +136,29 @@ ul {
 
 /********************************************************************************************** Parallax***/
 
-.parallax {
-    background-image: url("https://images.unsplash.com/photo-1541969487406-1f1adf3884ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80");
-    min-height: 700px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(144, 53, 53, 0.12);
-  }
-  
-  .parallax h1 {
-    color: #ffbf00;
-    font-size: 70px;
-  }
-  
-  .parallax h4 {
-    font-size: 40px;
-    color: #ffbf00;
-  }
 
 /********************************************************************************************** end Parallax***/
 
 
 /********************************************************************************************** Photo Galery***/
+.wrapper h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
 
+.img-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-img {
+    padding: 0 20px 20px;
+
+}
 
 
 /********************************************************************************************** ENd Photo Galery***/
@@ -147,5 +177,3 @@ ul {
 }
 
 /********************************************************************************************** end footer***/
-
-
