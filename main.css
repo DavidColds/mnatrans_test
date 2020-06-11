@@ -3,13 +3,8 @@ body,
 header {
     font-family: 'Roboto Slab', serif;
     scroll-behavior: smooth;
+    background-color: rgb(216, 240, 255);
 
-    background-color: rgb(229, 245, 255);
-
-}
-
-.view {
-    height: 850px;
 }
 
 * {
@@ -51,6 +46,7 @@ ul {
     transition: .35s;
 }
 
+
 .navbar-brand {
     display: inline-block;
     padding-top: .3125rem;
@@ -61,11 +57,7 @@ ul {
     white-space: nowrap;
 }
 
-
-
 /**********************************************************************************************End Navbar***/
-
-
 
 
 /********************************************************************************************** Header***/
@@ -75,22 +67,13 @@ ul {
 }
 
 
-
-
-
-
-
-
-
-
-
 /********************************************************************************************** End Header***/
 
 /********************************************************************************************** About***/
 .about {
-    padding-top: 190px;
+    padding-top: 90px;
     padding-bottom: 90px;
-    background-color: rgb(229, 245, 255);
+    background-color: rgb(216, 240, 255);
 }
 
 .align-center {
@@ -102,31 +85,42 @@ ul {
     display: inline-block;
 }
 
-.gradient:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    background: -moz-linear-gradient(top, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(220, 66, 37, 0.5)), color-stop(100%, rgba(0, 47, 75, 0.5)));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
-    /* IE10+ */
-    background: linear-gradient(to bottom, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002f4b', endColorstr='#00000000', GradientType=0);
-    /* IE6-9 */
+
+
+.heading {
+    margin: 0 6rem;
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: rgb(0, 68, 95);
 }
 
+.subheading {
+    margin: 2.5rem 6rem;
+    color: #bcb2c0;
+}
 
+.btn.btn-margin {
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+.btn.btn-lily {
+    background: linear-gradient(40deg, rgba(180, 180, 180, 0.3), rgba(100, 211, 255, 0.089));
+    color: rgb(0, 0, 0);
+}
+
+.title {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    color: #5d4267;
+}
+
+.subtitle {
+    color: #bcb2c0;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 6rem;
+}
 
 
 /********************************************************************************************** End About***/
@@ -134,31 +128,16 @@ ul {
 
 
 
-/********************************************************************************************** Parallax***/
-
-
-/********************************************************************************************** end Parallax***/
-
-
 /********************************************************************************************** Photo Galery***/
-.wrapper h1 {
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Roboto Slab', serif;
+.contact {
+    background-image: url(./static/img/contact.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
-.img-area {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
 
-.single-img {
-    padding: 0 20px 20px;
 
-}
+
 
 
 /********************************************************************************************** ENd Photo Galery***/
