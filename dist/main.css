@@ -161,12 +161,16 @@ ul {
 
 
 .thanks{
+    height: 50vh;
     margin-top: 200px;
     background-image: url(./static/img/contact.jpg);
     background-size: cover;
     background-position: center center;
 }
+.rgba-black-strong{
+    height: 50vh;
 
+}
 .overlay .mask:hover {
     opacity: 0.5;
   }
@@ -176,14 +180,29 @@ ul {
   .avtar {max-width: 100%;}
   /* No Need To Add */
   
+
   .jumbotron {background-color: #f5f8fc;}
   .jumbotron h2 {color: #000;font-size: 3em;font-weight: bold;margin: .25em 0;}
   .jumbotron p {color: #000;}
   .jumbotron .container-login100-form-btn {margin-left: auto;margin-right: auto;max-width: 250px;}
   
-  .checkMark {-webkit-animation: show 1s linear forwards .5s;-ms-animation: show 1s linear forwards .5s;animation: show 1s linear forwards .5s;border: 2px solid #529c29;border-radius: 50%;height: 100px;margin: 0 auto;padding: 1.5em;width: 100px;}
-  .checkMark path {-webkit-animation: draw 0.5s linear forwards 1s;-ms-animation: draw 0.5s linear forwards 1s;animation: draw 0.5s linear forwards 1s;fill: none;stroke: #529c29;stroke-miterlimit: 10;stroke-width: 40px;stroke-dasharray: 500;stroke-dashoffset: 500;}
-  .checkMark svg {overflow: visible;}
+  .checkMark {-webkit-animation: show 1s linear forwards .5s;
+    -ms-animation: show 1s linear forwards .5s;
+    animation: show 1s linear forwards .5s;
+    border: 2px solid #529c29;
+    border-radius: 50%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 200px;
+
+    padding: 1.5em;
+    width: 100px;
+}
+  .checkMark path {-webkit-animation: draw 0.5s linear forwards 1s; 
+    margin-top: 100px;
+    -ms-animation: draw 0.5s linear forwards 1s;animation: draw 0.5s linear forwards 1s;fill: none;stroke: #529c29;stroke-miterlimit: 10;stroke-width: 40px;stroke-dasharray: 500;stroke-dashoffset: 500;}
+  .checkMark svg {overflow: visible;     margin-top: 100px;
+  }
   
   @-webkit-@keyframes draw {
     from {stroke-linecap: round;}
