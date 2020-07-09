@@ -8,6 +8,11 @@ header {
 
 }
 
+/** success id body tag **/
+#success{
+    height: 100vh;
+}
+
 * {
     box-sizing: border-box;
     transition: 0.4s ease all;
@@ -176,9 +181,6 @@ ul {
   }
 
 
-
-  .avtar {max-width: 100%;}
-  /* No Need To Add */
   
 
   .jumbotron {background-color: #f5f8fc;}
@@ -189,7 +191,6 @@ ul {
   .checkMark {-webkit-animation: show 1s linear forwards .5s;
     -ms-animation: show 1s linear forwards .5s;
     animation: show 1s linear forwards .5s;
-    border: 2px solid #529c29;
     border-radius: 50%;
     height: 100px;
     margin: 0 auto;
