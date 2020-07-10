@@ -173,7 +173,7 @@ ul {
     background-position: center center;
 }
 .rgba-black-strong{
-    height: 50vh;
+    height: auto;
 
 }
 .overlay .mask:hover {
