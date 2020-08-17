@@ -15,7 +15,6 @@ header {
 
 * {
     box-sizing: border-box;
-    transition: 0.4s ease all;
 }
 
 h1,
@@ -102,7 +101,7 @@ ul {
 
 .subheading {
     margin: 2.5rem 6rem;
-    color: #bcb2c0;
+    color: #838383;
 }
 
 .btn.btn-margin {
@@ -153,7 +152,6 @@ ul {
 #site-footer {
     font-size: 85%;
     background-color: rgb(205, 230, 255);
-    position: fixed;
     z-index: -1;
     left: 0;
     right: 0;
